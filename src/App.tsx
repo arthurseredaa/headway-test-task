@@ -1,19 +1,17 @@
-import HandIcon from "./assets/images/hand.svg";
+import { FC } from "react";
+import { Route } from "react-router";
+
+import { Home } from "./components/Home/Home";
 
 import './App.css';
+import { Game } from "./components/Game/Game";
 
-function App() {
+export const App: FC = () =>  {
   return (
     <div className="app">
-      <div>
-        <img src={HandIcon} alt="Hand" />
-        <div>
-          <h1>text</h1>
-          here need a button
-        </div>
-      </div>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/game" component={Game} />
     </div>
   );
 }
 
-export default App;
