@@ -1,5 +1,6 @@
 .app {
-  background-color: #fff;
+  background-color: #F5F5F7;
   height: 100vh;
-  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, var(--selected-answer) 50%, var(--selected-answer) 100%);
 }
+
+

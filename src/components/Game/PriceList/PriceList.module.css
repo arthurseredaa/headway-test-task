@@ -1,0 +1,51 @@
+.priceListWrapper {
+  background-color: #fff;
+  height: 100vhw;
+  width: 376px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.priceItemWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+
+.priceItem {
+  width: 240px;
+  height: 40px;
+  background-image: url("../../../assets/images/price-rectangle.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.priceItem p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.priceItemLine {
+  background-image: url("../../../assets//images//price-item-line.svg");
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  width: 18%;
+}
+
+.lineLeft {
+  left: 0;
+}
+
+.lineRight {
+  right: 0;
+}

@@ -1,0 +1,21 @@
+.button {
+  width: 296px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--inactive-button);
+  border: none;
+  border-radius: 12px;
+  transition: .1s all linear;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--hover-button);
+}
+
+.button:active {
+  background-color: var(--pressed-button);
+}
