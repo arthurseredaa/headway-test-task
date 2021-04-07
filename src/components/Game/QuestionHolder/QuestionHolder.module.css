@@ -1,0 +1,12 @@
+.wrapper {
+  padding: 120px 80px;
+  width: 100%;
+}
+
+.question {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.5;
+  display: inline-block;
+  width: 1000px;
+}

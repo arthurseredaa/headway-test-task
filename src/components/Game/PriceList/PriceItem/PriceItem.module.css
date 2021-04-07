@@ -1,0 +1,19 @@
+.priceItemWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  margin: 8px 0;
+}
+
+.priceItemWrapper p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.doneStage {
+  opacity: .5;
+}
