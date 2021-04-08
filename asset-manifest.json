@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/headway-test-task/index.html/static/css/main.2be60b0a.chunk.css",
-    "main.js": "/headway-test-task/index.html/static/js/main.3d229bde.chunk.js",
-    "main.js.map": "/headway-test-task/index.html/static/js/main.3d229bde.chunk.js.map",
-    "runtime-main.js": "/headway-test-task/index.html/static/js/runtime-main.06e53bec.js",
-    "runtime-main.js.map": "/headway-test-task/index.html/static/js/runtime-main.06e53bec.js.map",
-    "static/js/2.6f1421f4.chunk.js": "/headway-test-task/index.html/static/js/2.6f1421f4.chunk.js",
-    "static/js/2.6f1421f4.chunk.js.map": "/headway-test-task/index.html/static/js/2.6f1421f4.chunk.js.map",
-    "index.html": "/headway-test-task/index.html/index.html",
-    "static/css/main.2be60b0a.chunk.css.map": "/headway-test-task/index.html/static/css/main.2be60b0a.chunk.css.map",
-    "static/js/2.6f1421f4.chunk.js.LICENSE.txt": "/headway-test-task/index.html/static/js/2.6f1421f4.chunk.js.LICENSE.txt",
-    "static/media/burger-menu.4cc3cba4.svg": "/headway-test-task/index.html/static/media/burger-menu.4cc3cba4.svg",
-    "static/media/cross.46c988ed.svg": "/headway-test-task/index.html/static/media/cross.46c988ed.svg",
-    "static/media/hand.ae778be2.svg": "/headway-test-task/index.html/static/media/hand.ae778be2.svg"
+    "main.css": "/headway-test-task/static/css/main.2be60b0a.chunk.css",
+    "main.js": "/headway-test-task/static/js/main.3d229bde.chunk.js",
+    "main.js.map": "/headway-test-task/static/js/main.3d229bde.chunk.js.map",
+    "runtime-main.js": "/headway-test-task/static/js/runtime-main.748227e5.js",
+    "runtime-main.js.map": "/headway-test-task/static/js/runtime-main.748227e5.js.map",
+    "static/js/2.6f1421f4.chunk.js": "/headway-test-task/static/js/2.6f1421f4.chunk.js",
+    "static/js/2.6f1421f4.chunk.js.map": "/headway-test-task/static/js/2.6f1421f4.chunk.js.map",
+    "index.html": "/headway-test-task/index.html",
+    "static/css/main.2be60b0a.chunk.css.map": "/headway-test-task/static/css/main.2be60b0a.chunk.css.map",
+    "static/js/2.6f1421f4.chunk.js.LICENSE.txt": "/headway-test-task/static/js/2.6f1421f4.chunk.js.LICENSE.txt",
+    "static/media/burger-menu.4cc3cba4.svg": "/headway-test-task/static/media/burger-menu.4cc3cba4.svg",
+    "static/media/cross.46c988ed.svg": "/headway-test-task/static/media/cross.46c988ed.svg",
+    "static/media/hand.ae778be2.svg": "/headway-test-task/static/media/hand.ae778be2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06e53bec.js",
+    "static/js/runtime-main.748227e5.js",
     "static/js/2.6f1421f4.chunk.js",
     "static/css/main.2be60b0a.chunk.css",
     "static/js/main.3d229bde.chunk.js"
