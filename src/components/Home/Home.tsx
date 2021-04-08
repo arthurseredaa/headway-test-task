@@ -1,21 +1,11 @@
-import { Button } from "../common/Button/Button"
-
-import classes from "./Home.module.css";
-
-import HandIcon from "../../assets/images/hand.svg";
+import { FC } from "react";
 import { useHistory } from "react-router";
 
+import { Layout } from "../common/Layout/Layout";
 
-export const Home = () => {
+
+export const Home: FC = () => {
   const history = useHistory();
 
-  return (
-    <div className={classes.homeContent}>
-      <img className={classes.handIcon} src={HandIcon} alt="Hand" />
-      <div className={classes.titleWrapper}>
-        <h1 className={classes.homeTitle}>Who wants to be a millionaire?</h1>
-        <Button customClass={classes.homeButton} handleClick={() => history.push("/game")} >Start</Button>
-      </div>
-    </div>
-  )
+  return <Layout isStart titleText="Who wants to be a millionaire?" buttonText="Start" clickHandler={() => history.push("/game")} />
 }
