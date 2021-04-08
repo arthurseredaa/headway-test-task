@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "question": "В каком году Титаник утонул в Атлантическом океане 15 апреля во время своего первого плавания из Саутгемптона?",
+      "answers": [
+        {
+          "answer": "1912",
+          "isCorrect": true
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "1999",
+          "isCorrect": false
+        },
+        {
+          "answer": "1997",
+          "isCorrect": false
+        }
+      ],
+      "money": "500"
+    },
+    {
+      "question": "Как называется первый фильм «Carry On», снятый и выпущенный в 1958 году?",
+      "answers": [
+        {
+          "answer": "Маугли",
+          "isCorrect": false
+        },
+        {
+          "answer": "Проводить сержант",
+          "isCorrect": true
+        },
+        {
+          "answer": "Халк",
+          "isCorrect": false
+        }
+      ],
+      "money": "1000"
+    },
+    {
+      "question": "Как называется крупнейшая технологическая компания в Южной Корее?",
+      "answers": [
+        {
+          "answer": "Motorola",
+          "isCorrect": false
+        },
+        {
+          "answer": "Huindai",
+          "isCorrect": false
+        },
+        {
+          "answer": "Samsung",
+          "isCorrect": true
+        }
+      ],
+      "money": "2000"
+    },
+    {
+      "question": "Какой певец выступал в поп-группе Showaddywaddy 1970-х годов?",
+      "answers": [
+        {
+          "answer": "Дейв Бартрам",
+          "isCorrect": true
+        },
+        {
+          "answer": "Авраам Линкольн",
+          "isCorrect": false
+        },
+        {
+          "answer": "Я :)",
+          "isCorrect": false
+        }
+      ],
+      "money": "4000"
+    },
+    {
+      "question": "Какой теперь известный телевизионный шеф начал готовить в возрасте восьми лет в пабе своих родителей «The Cricketers» в Клаверинге, Эссекс?",
+      "answers": [
+        {
+          "answer": "Джейми Оливер",
+          "isCorrect": true
+        },
+        {
+          "answer": "Гордон Рамзи",
+          "isCorrect": false
+        },
+        {
+          "answer": "Бабушка",
+          "isCorrect": false
+        }
+      ],
+      "money": "8000"
+    },
+    {
+      "question": "Какой голландский игрок в дартс выиграл чемпионат мира BDO 2012 года в загородном клубе Lakeside, Frimley Green, 15 января?",
+      "answers": [
+        {
+          "answer": "1912",
+          "isCorrect": false
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "Кристиан Кист",
+          "isCorrect": true
+        }
+      ],
+      "money": "16000"
+    },
+    {
+      "question": "Какой металл был открыт Гансом Кристианом Эрстедом в 1825 году?",
+      "answers": [
+        {
+          "answer": "алюминий",
+          "isCorrect": true
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "1999",
+          "isCorrect": false
+        }
+      ],
+      "money": "32000"
+    },
+    {
+      "question": "Какая столица Португалии?",
+      "answers": [
+        {
+          "answer": "1912",
+          "isCorrect": false
+        },
+        {
+          "answer": "Лиссабон",
+          "isCorrect": true
+        },
+        {
+          "answer": "1999",
+          "isCorrect": false
+        }
+      ],
+      "money": "64000"
+    },
+    {
+      "question": "Сколько вдохов делает человеческое тело ежедневно?",
+      "answers": [
+        {
+          "answer": "1912",
+          "isCorrect": false
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "20,000 ежедневно",
+          "isCorrect": true
+        }
+      ],
+      "money": "125000"
+    },
+    {
+      "question": "Какая самая маленькая птица в мире?",
+      "answers": [
+        {
+          "answer": "Пчела колибри",
+          "isCorrect": true
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "1999",
+          "isCorrect": false
+        }
+      ],
+      "money": "250000"
+    },
+    {
+      "question": "Какая кукла, Барби, полное имя?",
+      "answers": [
+        {
+          "answer": "1912",
+          "isCorrect": false
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "Барбара Миллисент Робертс",
+          "isCorrect": true
+        }
+      ],
+      "money": "500000"
+    },
+    {
+      "question": "Какова продолжительность жизни стрекозы?",
+      "answers": [
+        {
+          "answer": "24 часа",
+          "isCorrect": true
+        },
+        {
+          "answer": "1980",
+          "isCorrect": false
+        },
+        {
+          "answer": "1999",
+          "isCorrect": false
+        }
+      ],
+      "money": "1000000"
+    }
+  ]
+}
