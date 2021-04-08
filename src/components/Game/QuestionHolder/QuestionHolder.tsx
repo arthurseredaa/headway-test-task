@@ -1,19 +1,19 @@
 import { FC } from "react"
+
+import { Answers } from "./Answers/Answers"
+import { QuestionTitle } from "./QuestionTitle/QuestionTitle"
+import { Question, QuestionHolderProps } from "../../../types/game"
+
 import classes from "./QuestionHolder.module.css"
 
-interface QuestionHolderProps {
-  questions: any,
-  stage: number,
-}
+export const QuestionHolder: FC<QuestionHolderProps> = ({ questions, money }: QuestionHolderProps) => {
+  const titles = questions.map((quess: Question) => quess.question);
+  const answers = questions.map((quess: Question) => quess.answers);
 
-export const QuestionHolder: FC<QuestionHolderProps> = ({ questions, stage }: QuestionHolderProps) => {
   return (
     <div className={classes.wrapper}>
-      <h1 className={classes.question}>
-        {
-          questions.map((quess: any, index: number) => index === stage ? quess.question : null)
-        }
-      </h1>
+      <QuestionTitle titles={titles} />
+      <Answers answers={answers} money={money} />
     </div>
   )
 }
