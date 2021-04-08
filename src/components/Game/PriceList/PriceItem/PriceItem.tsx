@@ -1,20 +1,13 @@
 import { FC } from "react";
 
-import { MoneyItem } from "../../../../types";
+import { formatter } from "../../../../helpers/formatCurrency";
+import { PriceItemProps } from "../../../../types/game";
 
 import classes from "./PriceItem.module.css";
 
-const formatter = new Intl.NumberFormat();
-
-interface PriceItemProps {
-  item: MoneyItem,
-  current: boolean
-}
-
 export const PriceItem: FC<PriceItemProps> = ({ item, current }: PriceItemProps) => {
-
   const correctPrice = parseInt(item.money);
-  const price = formatter.format(correctPrice);
+  const price = formatter(correctPrice);
 
   return (
     <div key={item.money} className={`${classes.priceItemWrapper} ${item.done ? classes.doneStage : undefined}`}>
