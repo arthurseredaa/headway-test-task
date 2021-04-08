@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-  --inactive-button: #FF8B37;
-  --hover-button: #FFAC70;
-  --pressed-button: #E87928;
+  --orange-100: #FF8B37;
+  --orange-80: #FFAC70;
+  --orange-120: #E87928;
 
-  --correct-answer: #E6FAEA;
-  --selected-answer: #FFF3EB;
-  --wrong-asnwer: #FDEEED;
+  --green-5: #E6FAEA;
+  --orange-5: #FFF3EB;
+  --red-5: #FDEEED;
 }
 
 *,

@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  bottom: 122px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}

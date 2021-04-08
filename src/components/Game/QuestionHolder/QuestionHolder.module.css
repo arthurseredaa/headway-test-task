@@ -1,6 +1,10 @@
 .wrapper {
   padding: 120px 80px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 .question {
@@ -9,4 +13,10 @@
   line-height: 1.5;
   display: inline-block;
   width: 1000px;
+}
+
+@media (max-width: 880px) {
+  .wrapper {
+    padding: 80px 40px 20px;
+  }
 }

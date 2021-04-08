@@ -4,3 +4,17 @@
   background-color: #F5F5F7;
   height: 100vh;
 }
+
+.burgerIcon {
+  display: none;
+  cursor: pointer
+}
+
+@media (max-width: 1350px) {
+  .burgerIcon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 21px;
+  }
+}

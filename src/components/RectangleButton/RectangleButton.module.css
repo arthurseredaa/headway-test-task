@@ -1,0 +1,13 @@
+.rectangleButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.rectangleButton p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+}
