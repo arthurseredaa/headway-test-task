@@ -18,15 +18,19 @@ export const Game: FC = () => {
 
   useEffect(() => {
     const fetchQuestions = async () => {
-      let data = await fetch("./gameConfig.json").then(res => res.json());
+      try {
+        let data = await fetch("./gameConfig.json").then(res => res.json());
 
-      const allMoney = data.questions.map((quess: any, index: number) => index === 0 ? { money: quess.money, current: true, done: false } : { money: quess.money, current: false, done: false });
+        const allMoney = data.questions.map((quess: any, index: number) => index === 0 ? { money: quess.money, current: true, done: false } : { money: quess.money, current: false, done: false });
 
-      const allQuestions = data.questions.map((quess: any) => ({ question: quess.question, answers: quess.answers }));
+        const allQuestions = data.questions.map((quess: any) => ({ question: quess.question, answers: quess.answers }));
 
-      setQuestions(allQuestions)
+        setQuestions(allQuestions)
 
-      setMoney(allMoney);
+        setMoney(allMoney);
+      } catch(e) {
+        console.log(`Error when fetching data!`, e);
+      }
     }
 
     fetchQuestions();
