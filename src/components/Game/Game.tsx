@@ -1,12 +1,20 @@
-import { FC, useEffect, useState } from "react"
-import classes from './Game.module.css';
+import { FC, useContext, useEffect, useState } from "react"
+import { Redirect } from "react-router";
+
+import { TotalScoreContext } from "../../state/scoreContext";
 import { PriceList } from "./PriceList/PriceList";
 import { QuestionHolder } from "./QuestionHolder/QuestionHolder";
+import { MoneyItem } from "../../types/moneyItem";
+
+import BurgerIcon from "../../assets/images/burger-menu.svg";
+import CrossIcon from "../../assets/images/cross.svg";
+import classes from './Game.module.css';
 
 export const Game: FC = () => {
   const [questions, setQuestions] = useState([]);
-  const [money, setMoney] = useState<Array<{ money: string, current: boolean, done: false }>>([]);
-  const [stage, setStage] = useState(0)
+  const [money, setMoney] = useState<Array<MoneyItem>>([]);
+  const [openMenu, setOpenMenu] = useState(false);
+  const { stage } = useContext(TotalScoreContext);
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -19,8 +27,6 @@ export const Game: FC = () => {
       setQuestions(allQuestions)
 
       setMoney(allMoney);
-
-      console.log(allMoney)
     }
 
     fetchQuestions();
@@ -28,8 +34,26 @@ export const Game: FC = () => {
 
   return (
     <div className={classes.gameWrapper}>
-      <QuestionHolder questions={questions} stage={stage} />
-      <PriceList money={money} stage={stage} />
-    </div>
+      <div className={classes.burgerIcon} onClick={() => !openMenu ? setOpenMenu(true) : setOpenMenu(false)}>
+        <img src={!openMenu ? BurgerIcon : CrossIcon} alt="burger-menu" width="16" />
+      </div>
+      {
+        openMenu && <PriceList money={money} openMenu={openMenu} />
+      }
+      {
+        (stage === 12 ) || ( money.length > 0) && (stage + 1 > money.length) ? (
+          <Redirect to="/end" />
+        ) : (
+          <>
+            {
+              !openMenu && <QuestionHolder questions={questions} money={money} />
+            }
+            {
+              !openMenu && <PriceList money={money} />
+            }
+          </>
+        )
+      }
+    </div >
   )
 }
