@@ -14,6 +14,10 @@
         {
           "answer": "1999",
           "isCorrect": false
+        },
+        {
+          "answer": "1997",
+          "isCorrect": false
         }
       ],
       "money": "500"
@@ -77,11 +81,11 @@
       "answers": [
         {
           "answer": "Джейми Оливер",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "answer": "Гордон Рамзи",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "answer": "Бабушка",
