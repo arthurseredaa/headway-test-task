@@ -1,5 +1,4 @@
 import { FC, useContext, useState } from "react"
-import { useHistory } from "react-router";
 
 import { TotalScoreContext } from "../../state/scoreContext";
 import { RectangleButtonProps } from "../../types/rectangleButton";
