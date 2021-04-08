@@ -1,12 +1,7 @@
-import React, { FC, ReactNode } from "react"
-import classes from "./Button.module.css";
+import { FC } from "react"
+import { ButtonProps } from "../../../types/common";
 
-interface ButtonProps {
-  text?: string;
-  handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
-  children?: ReactNode;
-  customClass?: string;
-}
+import classes from "./Button.module.css";
 
 export const Button: FC<ButtonProps> = ({ text, handleClick, children, customClass }: ButtonProps) => (
   <>
