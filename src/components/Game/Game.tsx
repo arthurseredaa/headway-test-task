@@ -45,7 +45,7 @@ export const Game: FC = () => {
         openMenu && <PriceList money={money} openMenu={openMenu} />
       }
       {
-        (stage === 12 ) || ( money.length > 0) && (stage + 1 > money.length) ? (
+        stage === 12 ||  money.length > 0 && stage + 1 > money.length ? (
           <Redirect to="/end" />
         ) : (
           <>
