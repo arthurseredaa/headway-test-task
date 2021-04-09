@@ -24,6 +24,12 @@
   margin-bottom: 64px;
 }
 
+.subText {
+  font-size: 32px;
+  font-weight: 600;
+  opacity: .5;
+  line-height: 37px;
+}
 
 @media (max-width: 1150px) {
   .homeContent {
@@ -39,10 +45,14 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 55px;
   }
   .handIcon {
     margin-right: 0;
     width: 270px;
+  }
+  .subText {
+    font-size: 18px;
   }
 }
 

@@ -11,6 +11,7 @@ export const Layout: FC<LayoutProps> = ({ buttonText, titleText, clickHandler, i
     <div className={`${classes.homeContent} ${isStart ? classes.startBackground : null}`}>
       <img className={classes.handIcon} src={HandIcon} alt="Hand" />
       <div className={classes.titleWrapper}>
+        {!isStart && <h3 className={classes.subText}>Total score:</h3>}
         <h1 className={classes.homeTitle}>{titleText}</h1>
         <Button customClass={classes.homeButton} handleClick={clickHandler} >{buttonText}</Button>
       </div>
