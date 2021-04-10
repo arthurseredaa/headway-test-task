@@ -2,7 +2,8 @@ import { MoneyItem } from "./moneyItem";
 
 export interface PriceListProps {
   money: Array<MoneyItem>,
-  openMenu?: boolean
+  openMenu: boolean,
+  setOpenMenu: (open: boolean) => void
 }
 
 export interface PriceItemProps {
