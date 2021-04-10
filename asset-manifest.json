@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/headway-test-task/static/css/main.ef97a977.chunk.css",
-    "main.js": "/headway-test-task/static/js/main.d1c32b91.chunk.js",
-    "main.js.map": "/headway-test-task/static/js/main.d1c32b91.chunk.js.map",
-    "runtime-main.js": "/headway-test-task/static/js/runtime-main.748227e5.js",
-    "runtime-main.js.map": "/headway-test-task/static/js/runtime-main.748227e5.js.map",
-    "static/js/2.d9dc5eb6.chunk.js": "/headway-test-task/static/js/2.d9dc5eb6.chunk.js",
-    "static/js/2.d9dc5eb6.chunk.js.map": "/headway-test-task/static/js/2.d9dc5eb6.chunk.js.map",
-    "index.html": "/headway-test-task/index.html",
-    "static/css/main.ef97a977.chunk.css.map": "/headway-test-task/static/css/main.ef97a977.chunk.css.map",
-    "static/js/2.d9dc5eb6.chunk.js.LICENSE.txt": "/headway-test-task/static/js/2.d9dc5eb6.chunk.js.LICENSE.txt",
-    "static/media/burger-menu.4cc3cba4.svg": "/headway-test-task/static/media/burger-menu.4cc3cba4.svg",
-    "static/media/cross.46c988ed.svg": "/headway-test-task/static/media/cross.46c988ed.svg",
-    "static/media/hand.ae778be2.svg": "/headway-test-task/static/media/hand.ae778be2.svg"
+    "main.css": "/static/css/main.0430b3ad.chunk.css",
+    "main.js": "/static/js/main.a3466fd4.chunk.js",
+    "main.js.map": "/static/js/main.a3466fd4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3eee05df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3eee05df.js.map",
+    "static/js/2.8c15abc1.chunk.js": "/static/js/2.8c15abc1.chunk.js",
+    "static/js/2.8c15abc1.chunk.js.map": "/static/js/2.8c15abc1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0430b3ad.chunk.css.map": "/static/css/main.0430b3ad.chunk.css.map",
+    "static/js/2.8c15abc1.chunk.js.LICENSE.txt": "/static/js/2.8c15abc1.chunk.js.LICENSE.txt",
+    "static/media/burger-menu.4cc3cba4.svg": "/static/media/burger-menu.4cc3cba4.svg",
+    "static/media/cross.46c988ed.svg": "/static/media/cross.46c988ed.svg",
+    "static/media/hand.ae778be2.svg": "/static/media/hand.ae778be2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.748227e5.js",
-    "static/js/2.d9dc5eb6.chunk.js",
-    "static/css/main.ef97a977.chunk.css",
-    "static/js/main.d1c32b91.chunk.js"
+    "static/js/runtime-main.3eee05df.js",
+    "static/js/2.8c15abc1.chunk.js",
+    "static/css/main.0430b3ad.chunk.css",
+    "static/js/main.a3466fd4.chunk.js"
   ]
 }
