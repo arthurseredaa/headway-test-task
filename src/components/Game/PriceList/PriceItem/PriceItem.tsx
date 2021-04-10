@@ -6,7 +6,7 @@ import { PriceItemProps } from "../../../../types/game";
 import classes from "./PriceItem.module.css";
 
 export const PriceItem: FC<PriceItemProps> = ({ item, current }: PriceItemProps) => {
-  const correctPrice = parseInt(item.money);
+  const correctPrice = parseInt(item.money, 10);
   const price = formatter(correctPrice);
 
   return (

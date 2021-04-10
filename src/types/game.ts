@@ -16,7 +16,7 @@ export interface QuestionHolderProps {
 }
 
 export interface AnswersProps {
-  answers: Array<{ answer: string, isCorrect: boolean }>;
+  answers: Array<Answer>;
   money: Array<MoneyItem>
 }
 
@@ -26,5 +26,11 @@ export interface QuestionTitleProps {
 
 export interface Question {
   question: string;
-  answers: Array<{answer: string, isCorrect: true}>
+  money: string;
+  answers: Array<Answer>
+}
+
+export interface Answer {
+  answer: string,
+  isCorrect: boolean
 }

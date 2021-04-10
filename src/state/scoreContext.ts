@@ -5,7 +5,7 @@ const SCORE_DEFAULT_VALUE = {
   score: "0",
   setCurrentScore: () => { },
   stage: 0,
-  setCurrentStage: () => {},
+  setCurrentStage: () => { },
 
 }
 

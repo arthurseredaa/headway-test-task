@@ -7,9 +7,9 @@ export const Button: FC<ButtonProps> = ({ text, handleClick, children, customCla
   <>
     {
       children ? (
-        <button onClick={handleClick} className={`${classes.button}${customClass ? " " + customClass : ""}`}>{children}</button>
+        <button onClick={handleClick} type="button" className={`${classes.button}${customClass ? ` ${customClass}` : ""}`}>{children}</button>
       ) : (
-        <button onClick={handleClick} className={`${classes.button}${customClass ? " " + customClass : ""}`}>{text}</button>
+        <button onClick={handleClick} type="button" className={`${classes.button}${customClass ? ` ${customClass}` : ""}`}>{text}</button>
       )
     }
   </>

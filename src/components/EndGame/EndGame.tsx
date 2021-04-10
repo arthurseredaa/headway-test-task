@@ -17,7 +17,7 @@ export const EndGame: FC = () => {
     setCurrentStage(0)
   }
 
-  let totalScoreTitle = `$${formatter(+score)} earned`
+  const totalScoreTitle = `$${formatter(+score)} earned`
 
   return <Layout titleText={totalScoreTitle} buttonText="Try again" clickHandler={handleClick} />
 }
