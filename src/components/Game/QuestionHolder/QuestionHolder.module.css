@@ -15,7 +15,13 @@
   width: 1000px;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1500px) {
+  .wrapper {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 1350px) {
   .wrapper {
     padding: 80px 40px 20px;
   }

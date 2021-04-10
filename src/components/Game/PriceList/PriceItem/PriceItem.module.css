@@ -15,5 +15,11 @@
 }
 
 .doneStage {
-  opacity: .5;
+  opacity: 0.5;
+}
+
+@media (max-width: 1500px) {
+  .priceItemWrapper {
+    height: 30px;
+  }
 }
