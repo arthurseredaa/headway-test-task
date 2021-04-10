@@ -2,6 +2,9 @@
 
 I completed this project for selection to the Headway :)
 
+## Important!
+**Before** you start application on your localhost, please, remove from package.json this line: *"homepage": "https://arthurseredaa.github.io/headway-test-task"*
+
 ## Available Scripts
 
 In the project directory, you can run:
