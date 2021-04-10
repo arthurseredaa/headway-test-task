@@ -70,7 +70,7 @@
           "isCorrect": false
         },
         {
-          "answer": "Я :)",
+          "answer": "Элвис Пресли",
           "isCorrect": false
         }
       ],
@@ -88,7 +88,7 @@
           "isCorrect": false
         },
         {
-          "answer": "Бабушка",
+          "answer": "Какая-то бабушка",
           "isCorrect": false
         }
       ],
@@ -98,16 +98,20 @@
       "question": "Какой голландский игрок в дартс выиграл чемпионат мира BDO 2012 года в загородном клубе Lakeside, Frimley Green, 15 января?",
       "answers": [
         {
-          "answer": "1912",
+          "answer": "Гэри Андерсон",
           "isCorrect": false
         },
         {
-          "answer": "1980",
+          "answer": "Саймон Уитлок",
           "isCorrect": false
         },
         {
           "answer": "Кристиан Кист",
           "isCorrect": true
+        },
+        {
+          "answer": "Джеймс Уэйд",
+          "isCorrect": false
         }
       ],
       "money": "16000"
@@ -116,15 +120,19 @@
       "question": "Какой металл был открыт Гансом Кристианом Эрстедом в 1825 году?",
       "answers": [
         {
-          "answer": "алюминий",
+          "answer": "Алюминий",
           "isCorrect": true
         },
         {
-          "answer": "1980",
+          "answer": "Литий",
           "isCorrect": false
         },
         {
-          "answer": "1999",
+          "answer": "Никель",
+          "isCorrect": false
+        },
+        {
+          "answer": "Вольфрам",
           "isCorrect": false
         }
       ],
@@ -134,7 +142,7 @@
       "question": "Какая столица Португалии?",
       "answers": [
         {
-          "answer": "1912",
+          "answer": "Тбилиси",
           "isCorrect": false
         },
         {
@@ -142,7 +150,11 @@
           "isCorrect": true
         },
         {
-          "answer": "1999",
+          "answer": "Мадрид",
+          "isCorrect": false
+        },
+        {
+          "answer": "Киев",
           "isCorrect": false
         }
       ],
@@ -152,16 +164,20 @@
       "question": "Сколько вдохов делает человеческое тело ежедневно?",
       "answers": [
         {
-          "answer": "1912",
+          "answer": "5,000",
           "isCorrect": false
         },
         {
-          "answer": "1980",
-          "isCorrect": false
-        },
-        {
-          "answer": "20,000 ежедневно",
+          "answer": "20,000",
           "isCorrect": true
+        },
+        {
+          "answer": "12,000",
+          "isCorrect": false
+        },
+        {
+          "answer": "15,000",
+          "isCorrect": false
         }
       ],
       "money": "125000"
@@ -174,11 +190,11 @@
           "isCorrect": true
         },
         {
-          "answer": "1980",
+          "answer": "Банановый певун",
           "isCorrect": false
         },
         {
-          "answer": "1999",
+          "answer": "Крапивник",
           "isCorrect": false
         }
       ],
@@ -188,11 +204,11 @@
       "question": "Какая кукла, Барби, полное имя?",
       "answers": [
         {
-          "answer": "1912",
+          "answer": "Барбара Мартинез Брукс",
           "isCorrect": false
         },
         {
-          "answer": "1980",
+          "answer": "Колин Джонсон Эрл",
           "isCorrect": false
         },
         {
@@ -206,15 +222,19 @@
       "question": "Какова продолжительность жизни стрекозы?",
       "answers": [
         {
+          "answer": "1 неделя",
+          "isCorrect": false
+        },
+        {
           "answer": "24 часа",
           "isCorrect": true
         },
         {
-          "answer": "1980",
+          "answer": "5 минут",
           "isCorrect": false
         },
         {
-          "answer": "1999",
+          "answer": "3 дня",
           "isCorrect": false
         }
       ],
