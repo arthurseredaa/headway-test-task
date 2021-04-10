@@ -4,10 +4,18 @@
   align-items: center;
   margin: 20px 0;
   cursor: pointer;
+  position: relative;
 }
 
-.rectangleButton p {
+.answerText {
   position: absolute;
   font-size: 20px;
   font-weight: 400;
+  left: 70px;
+}
+
+.answerLetter {
+  color: var(--orange-100);
+  margin-right: 8px;
+  font-weight: 600;
 }
