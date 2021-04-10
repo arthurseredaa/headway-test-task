@@ -8,21 +8,22 @@ import { PriceItem } from "./PriceItem/PriceItem";
 
 import classes from "./PriceList.module.css";
 
-export const PriceList: FC<PriceListProps> = ({ money, openMenu }: PriceListProps) => {
+export const PriceList: FC<PriceListProps> = ({ money, openMenu, setOpenMenu }: PriceListProps) => {
   const { stage } = useContext(TotalScoreContext);
-  const [hideMenu, setHideMenu] = useState(false);
+  const [collapseMenu, setCollapse] = useState(false);
   const size = useWindowWidth();
 
   useEffect(() => {
-    if(size <= 1350) {
-      setHideMenu(true);
+    if (size <= 1350) {
+      setCollapse(true);
     } else {
-      setHideMenu(false);
+      setCollapse(false);
+      setOpenMenu(false);
     }
-  }, [size]);
+  }, [size, setOpenMenu]);
 
   return (
-    <div className={`${classes.priceListWrapper} ${openMenu && classes.collapsedMenuOpen} ${!openMenu && hideMenu && classes.collapsedMenuClose}`}>
+    <div className={`${classes.priceListWrapper} ${openMenu && classes.collapsedMenuOpen} ${!openMenu && collapseMenu && classes.collapsedMenuClose}`}>
       {
         money && money.map((item: MoneyItem, index: number) => <PriceItem key={item.money} item={item} current={index === stage} />)
       }
