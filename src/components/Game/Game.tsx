@@ -43,7 +43,7 @@ export const Game: FC = () => {
         <img src={!openMenu ? BurgerIcon : CrossIcon} alt="burger-menu" width="16" />
       </div>
       {
-        openMenu && <PriceList money={money} openMenu={openMenu} />
+        openMenu && <PriceList money={money} openMenu={openMenu} setOpenMenu={setOpenMenu} />
       }
       {
         stage === 12 || money.length > 0 && stage + 1 > money.length ? (
@@ -54,7 +54,7 @@ export const Game: FC = () => {
               !openMenu && <QuestionHolder questions={questions} money={money} />
             }
             {
-              !openMenu && <PriceList money={money} />
+              !openMenu && <PriceList money={money} openMenu={openMenu} setOpenMenu={setOpenMenu} />
             }
           </>
         )
